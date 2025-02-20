@@ -1,10 +1,12 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
+import sap from "../assets/images/sap.png"
+import heyjobs from "../assets/images/heyjobs.png"
+import tuBerlin from "../assets/images/tuBerlin.png"
+import phytec from "../assets/images/phytec.jpeg"
 
 function Timeline() {
   return (
@@ -17,8 +19,19 @@ function Timeline() {
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="2025 - present"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            iconStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            icon={
+              <img 
+                src={sap} 
+                alt="SAP"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  borderRadius: '50%',
+                  objectFit: 'cover'
+                }}
+              />
+            }
           >
             <h3 className="vertical-timeline-element-title">STAR Program</h3>
             <h4 className="vertical-timeline-element-subtitle">SAP, Munich</h4>
@@ -29,8 +42,19 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2022 - 2024"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            iconStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            icon={
+              <img 
+                src={heyjobs} 
+                alt="HeyJobs"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  borderRadius: '50%',
+                  objectFit: 'cover'
+                }}
+              />
+            }
           >
             <h3 className="vertical-timeline-element-title">Software Engineer</h3>
             <h4 className="vertical-timeline-element-subtitle">HeyJobs, Berlin</h4>
@@ -41,8 +65,21 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2021 - 2022"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            iconStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            icon={<img
+              src={tuBerlin}
+              alt="TUBerlin"
+              style={{
+                width: '80%',
+                height: '80%',
+                borderRadius: '50%',
+                objectFit: 'cover',
+                position: 'absolute',
+                top: '50%',
+                left: '50%',
+                transform: 'translate(-50%, -50%)'
+              }}
+            />}
           >
             <h3 className="vertical-timeline-element-title">Student Tutor</h3>
             <h4 className="vertical-timeline-element-subtitle">Technical University of Berlin</h4>
@@ -53,8 +90,19 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2018 - 2018"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            iconStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            icon={
+              <img 
+                src={phytec} 
+                alt="Phytec"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  borderRadius: '50%',
+                  objectFit: 'cover'
+                }}
+              />
+            }
           >
             <h3 className="vertical-timeline-element-title">Technical Assistant</h3>
             <h4 className="vertical-timeline-element-subtitle">Phytec, Mainz</h4>
