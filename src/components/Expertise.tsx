@@ -6,39 +6,31 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
-    "SQL",
-    "PostgreSQL",
-    "Postman"
-];
-
-const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
-];
-
-const labelsThird = [
     "OpenAI",
-    "Groq",
     "LangChain",
     "Qdrant",
     "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Finetuning",
+    "Ollama"
+];
+
+const labelsSecond = [
+    "Terraform",
+    "GitHub Actions",
+    "AWS",
+    "Kubernetes",
+    "CircleCI",
+    "Docker",
+    "Azure",
+    "Linux",
+];
+
+const labelsThird = [
+    "Next.js",
+    "TypeScript",
+    "Spring Boot",
+    "Flask",
+    "Ruby on Rails",
 ];
 
 function Expertise() {
@@ -48,9 +40,11 @@ function Expertise() {
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <FontAwesomeIcon icon={faPython} size="3x"/>
+                    <h3>Generative AI & LLM</h3>
+                    <p>I stay relevant in the market by leveraging the latest AI models in my projects.
+                        I have professional experience building enterprise grade GenAI-enabled solutions
+                        to empower intelligent decision making.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -61,8 +55,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <h3>DevOps</h3>
+                    <p>I wrote my bachelor thesis on Istio, a Cloud Native technology built on top of Kubernetes and Docker. I transformed my theoretical knowledge into practice by optimizing organisations' CI/CD pipeline and ensuring best practices in testing and deployment</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -72,9 +66,10 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <FontAwesomeIcon icon={faReact} size="3x"/>
+                    <h3>Full Stack Web Development</h3>
+                    <p>I built web applications professionally, designed and implemented industry-grade softwares
+                        used by millions of users.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (

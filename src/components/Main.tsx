@@ -18,7 +18,8 @@ function Main() {
           </div>
           <h1>Ching Kei Tang</h1>
           <p>Software Engineer</p>
-
+          <h4>Computer Science M.Sc. @ Technical University of Munich</h4>
+          <h4>Computer Science B.Sc. @ Technical University of Berlin</h4>
           <div className="mobile_social_icons">
             <a href="https://github.com/chingkt" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/tangchingkei/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
