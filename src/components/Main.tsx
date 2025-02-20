@@ -2,14 +2,13 @@ import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
-import propic from '../assets/images/propic.jpg'
 function Main() {
 
   return (
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <img src={propic} alt="Avatar" />
+          <img src="https://avatars.githubusercontent.com/u/64973878" alt="Avatar" />
         </div>
         <div className="content">
           <div className="social_icons">
