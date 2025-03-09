@@ -36,7 +36,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">STAR Program</h3>
             <h4 className="vertical-timeline-element-subtitle">SAP, Munich</h4>
             <p>
-              Rotations every 6 months to tackle different Computer Science topics, like Business AI, Big Data, and Cloud Computing, in different teams
+              Rotations every 6 months to tackle advanced Computer Science topics, like Business AI, Big Data, and Cloud Computing, in different teams
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
