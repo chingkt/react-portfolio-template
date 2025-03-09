@@ -8,7 +8,6 @@ import '../assets/styles/Expertise.scss';
 const labelsFirst = [
     "OpenAI",
     "LangChain",
-    "Qdrant",
     "Hugging Face",
     "Finetuning",
     "Ollama"
